@@ -89,18 +89,9 @@
 		BC88F69E2C3F5F9300F2CACD /* CocoaRedis */ = {
 			isa = PBXGroup;
 			children = (
+				BC88F6E62C3FD41B00F2CACD /* Main */,
 				BC88F6B82C3F5FFC00F2CACD /* CocoaRedis */,
-				BC88F69F2C3F5F9300F2CACD /* AppDelegate.h */,
-				BC88F6A02C3F5F9300F2CACD /* AppDelegate.m */,
-				BC88F6A22C3F5F9300F2CACD /* SceneDelegate.h */,
-				BC88F6A32C3F5F9300F2CACD /* SceneDelegate.m */,
-				BC88F6A52C3F5F9300F2CACD /* ViewController.h */,
-				BC88F6A62C3F5F9300F2CACD /* ViewController.m */,
-				BC88F6A82C3F5F9300F2CACD /* Main.storyboard */,
-				BC88F6AB2C3F5FA000F2CACD /* Assets.xcassets */,
-				BC88F6AD2C3F5FA000F2CACD /* LaunchScreen.storyboard */,
 				BC88F6B02C3F5FA000F2CACD /* Info.plist */,
-				BC88F6B12C3F5FA000F2CACD /* main.m */,
 			);
 			path = CocoaRedis;
 			sourceTree = "<group>";
@@ -154,6 +145,23 @@
 				BC88F6CF2C3F5FFC00F2CACD /* CocoaRedis.h */,
 			);
 			path = RedisKit;
+			sourceTree = "<group>";
+		};
+		BC88F6E62C3FD41B00F2CACD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BC88F6B12C3F5FA000F2CACD /* main.m */,
+				BC88F6AD2C3F5FA000F2CACD /* LaunchScreen.storyboard */,
+				BC88F6AB2C3F5FA000F2CACD /* Assets.xcassets */,
+				BC88F6A82C3F5F9300F2CACD /* Main.storyboard */,
+				BC88F6A62C3F5F9300F2CACD /* ViewController.m */,
+				BC88F6A52C3F5F9300F2CACD /* ViewController.h */,
+				BC88F6A32C3F5F9300F2CACD /* SceneDelegate.m */,
+				BC88F6A22C3F5F9300F2CACD /* SceneDelegate.h */,
+				BC88F6A02C3F5F9300F2CACD /* AppDelegate.m */,
+				BC88F69F2C3F5F9300F2CACD /* AppDelegate.h */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
