@@ -13,7 +13,7 @@ use
 
 ```
 target 'MyApp' do
-  pod 'CocoaRedis', '~> 1.0.1'
+  pod 'CocoaRedis', '~> 1.0.2'
 end
 
 ```
