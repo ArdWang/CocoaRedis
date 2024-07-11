@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,14 @@
 		BC88F6AC2C3F5FA000F2CACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC88F6AB2C3F5FA000F2CACD /* Assets.xcassets */; };
 		BC88F6AF2C3F5FA000F2CACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC88F6AD2C3F5FA000F2CACD /* LaunchScreen.storyboard */; };
 		BC88F6B22C3F5FA000F2CACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6B12C3F5FA000F2CACD /* main.m */; };
+		BC88F6D02C3F5FFC00F2CACD /* CocoaPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6BA2C3F5FFC00F2CACD /* CocoaPromise.m */; };
+		BC88F6D12C3F5FFC00F2CACD /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6BD2C3F5FFC00F2CACD /* dict.c */; };
+		BC88F6D22C3F5FFC00F2CACD /* sds.c in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6BE2C3F5FFC00F2CACD /* sds.c */; };
+		BC88F6D32C3F5FFC00F2CACD /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6BF2C3F5FFC00F2CACD /* async.c */; };
+		BC88F6D42C3F5FFC00F2CACD /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6C32C3F5FFC00F2CACD /* read.c */; };
+		BC88F6D52C3F5FFC00F2CACD /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6C82C3F5FFC00F2CACD /* net.c */; };
+		BC88F6D62C3F5FFC00F2CACD /* hiredis.c in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6CB2C3F5FFC00F2CACD /* hiredis.c */; };
+		BC88F6D72C3F5FFC00F2CACD /* CocoaRedis.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88F6CD2C3F5FFC00F2CACD /* CocoaRedis.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,26 @@
 		BC88F6AE2C3F5FA000F2CACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC88F6B02C3F5FA000F2CACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC88F6B12C3F5FA000F2CACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC88F6BA2C3F5FFC00F2CACD /* CocoaPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPromise.m; sourceTree = "<group>"; };
+		BC88F6BB2C3F5FFC00F2CACD /* CocoaPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPromise.h; sourceTree = "<group>"; };
+		BC88F6BD2C3F5FFC00F2CACD /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		BC88F6BE2C3F5FFC00F2CACD /* sds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sds.c; sourceTree = "<group>"; };
+		BC88F6BF2C3F5FFC00F2CACD /* async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = async.c; sourceTree = "<group>"; };
+		BC88F6C02C3F5FFC00F2CACD /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		BC88F6C12C3F5FFC00F2CACD /* hiredis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hiredis.h; sourceTree = "<group>"; };
+		BC88F6C22C3F5FFC00F2CACD /* win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = win32.h; sourceTree = "<group>"; };
+		BC88F6C32C3F5FFC00F2CACD /* read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read.c; sourceTree = "<group>"; };
+		BC88F6C42C3F5FFC00F2CACD /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async.h; sourceTree = "<group>"; };
+		BC88F6C52C3F5FFC00F2CACD /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		BC88F6C62C3F5FFC00F2CACD /* sds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sds.h; sourceTree = "<group>"; };
+		BC88F6C72C3F5FFC00F2CACD /* macosx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macosx.h; sourceTree = "<group>"; };
+		BC88F6C82C3F5FFC00F2CACD /* net.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net.c; sourceTree = "<group>"; };
+		BC88F6C92C3F5FFC00F2CACD /* fmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
+		BC88F6CA2C3F5FFC00F2CACD /* read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read.h; sourceTree = "<group>"; };
+		BC88F6CB2C3F5FFC00F2CACD /* hiredis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hiredis.c; sourceTree = "<group>"; };
+		BC88F6CD2C3F5FFC00F2CACD /* CocoaRedis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaRedis.m; sourceTree = "<group>"; };
+		BC88F6CE2C3F5FFC00F2CACD /* RedisKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedisKit.h; sourceTree = "<group>"; };
+		BC88F6CF2C3F5FFC00F2CACD /* CocoaRedis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaRedis.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +89,7 @@
 		BC88F69E2C3F5F9300F2CACD /* CocoaRedis */ = {
 			isa = PBXGroup;
 			children = (
+				BC88F6B82C3F5FFC00F2CACD /* CocoaRedis */,
 				BC88F69F2C3F5F9300F2CACD /* AppDelegate.h */,
 				BC88F6A02C3F5F9300F2CACD /* AppDelegate.m */,
 				BC88F6A22C3F5F9300F2CACD /* SceneDelegate.h */,
@@ -74,6 +103,57 @@
 				BC88F6B12C3F5FA000F2CACD /* main.m */,
 			);
 			path = CocoaRedis;
+			sourceTree = "<group>";
+		};
+		BC88F6B82C3F5FFC00F2CACD /* CocoaRedis */ = {
+			isa = PBXGroup;
+			children = (
+				BC88F6B92C3F5FFC00F2CACD /* PromiseKit */,
+				BC88F6BC2C3F5FFC00F2CACD /* Hiredis */,
+				BC88F6CC2C3F5FFC00F2CACD /* RedisKit */,
+			);
+			path = CocoaRedis;
+			sourceTree = "<group>";
+		};
+		BC88F6B92C3F5FFC00F2CACD /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC88F6BA2C3F5FFC00F2CACD /* CocoaPromise.m */,
+				BC88F6BB2C3F5FFC00F2CACD /* CocoaPromise.h */,
+			);
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		BC88F6BC2C3F5FFC00F2CACD /* Hiredis */ = {
+			isa = PBXGroup;
+			children = (
+				BC88F6BD2C3F5FFC00F2CACD /* dict.c */,
+				BC88F6BE2C3F5FFC00F2CACD /* sds.c */,
+				BC88F6BF2C3F5FFC00F2CACD /* async.c */,
+				BC88F6C02C3F5FFC00F2CACD /* net.h */,
+				BC88F6C12C3F5FFC00F2CACD /* hiredis.h */,
+				BC88F6C22C3F5FFC00F2CACD /* win32.h */,
+				BC88F6C32C3F5FFC00F2CACD /* read.c */,
+				BC88F6C42C3F5FFC00F2CACD /* async.h */,
+				BC88F6C52C3F5FFC00F2CACD /* dict.h */,
+				BC88F6C62C3F5FFC00F2CACD /* sds.h */,
+				BC88F6C72C3F5FFC00F2CACD /* macosx.h */,
+				BC88F6C82C3F5FFC00F2CACD /* net.c */,
+				BC88F6C92C3F5FFC00F2CACD /* fmacros.h */,
+				BC88F6CA2C3F5FFC00F2CACD /* read.h */,
+				BC88F6CB2C3F5FFC00F2CACD /* hiredis.c */,
+			);
+			path = Hiredis;
+			sourceTree = "<group>";
+		};
+		BC88F6CC2C3F5FFC00F2CACD /* RedisKit */ = {
+			isa = PBXGroup;
+			children = (
+				BC88F6CD2C3F5FFC00F2CACD /* CocoaRedis.m */,
+				BC88F6CE2C3F5FFC00F2CACD /* RedisKit.h */,
+				BC88F6CF2C3F5FFC00F2CACD /* CocoaRedis.h */,
+			);
+			path = RedisKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +191,7 @@
 				};
 			};
 			buildConfigurationList = BC88F6972C3F5F9300F2CACD /* Build configuration list for PBXProject "CocoaRedis" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,10 +226,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC88F6D02C3F5FFC00F2CACD /* CocoaPromise.m in Sources */,
 				BC88F6A72C3F5F9300F2CACD /* ViewController.m in Sources */,
 				BC88F6A12C3F5F9300F2CACD /* AppDelegate.m in Sources */,
+				BC88F6D12C3F5FFC00F2CACD /* dict.c in Sources */,
 				BC88F6B22C3F5FA000F2CACD /* main.m in Sources */,
+				BC88F6D42C3F5FFC00F2CACD /* read.c in Sources */,
+				BC88F6D22C3F5FFC00F2CACD /* sds.c in Sources */,
+				BC88F6D62C3F5FFC00F2CACD /* hiredis.c in Sources */,
+				BC88F6D32C3F5FFC00F2CACD /* async.c in Sources */,
 				BC88F6A42C3F5F9300F2CACD /* SceneDelegate.m in Sources */,
+				BC88F6D52C3F5FFC00F2CACD /* net.c in Sources */,
+				BC88F6D72C3F5FFC00F2CACD /* CocoaRedis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +388,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = github.ardwang.CocoaRedis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -327,11 +416,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = github.ardwang.CocoaRedis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
