@@ -1,5 +1,7 @@
 #### Supports ios and macosx
 
+This code is RedisKit without cocoa version uploaded to the cocoa library.
+
  🎉  Congrats
 
  🚀  CocoaRedis (1.0.1) successfully published
