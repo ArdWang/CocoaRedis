@@ -15,5 +15,6 @@ target 'MyApp' do
 end
 
 ```
-
+More use please see:
+https://github.com/dizzus/RedisKit
  
