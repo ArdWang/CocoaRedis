@@ -7,4 +7,13 @@ this is my project
  🌎  https://cocoapods.org/pods/CocoaRedis
  👍  Tell your friends!
 
+use
+
+```
+target 'MyApp' do
+  pod 'CocoaRedis', '~> 1.0.1'
+end
+
+```
+
  
